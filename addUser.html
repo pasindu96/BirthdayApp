@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Main user Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form name="addUserForm" action="adduser.php" method="POST">
+        <fieldset>
+                <h2>User Registration form</h3>      
+                <label >FIRST NAME</label>
+                <input type="text" name="txtFirstName" required><br>
+                <br>
+
+                <label >LAST NAME</label>
+                <input type="text" name="txtLastName" required><br>
+                <br>
+
+                <label >Preffered name</label>
+                <input type="text" name="txtPrefferedName" required><br>
+                <br>
+
+                <label >Personal email</label>
+                <input type="text" name="txtPersonalEmail" required><br>
+                <br>
+
+                <label>Password</label>
+                <input type="password" name="txtPassword" required><br>
+                <br>
+
+                <label >Official email</label>
+                <input type="text" name="txtOfficialEmail" required><br>
+                <br>
+                
+                <label>Contact Number</label>
+                <input type="text" name="txtMobile" required><br>
+                <br>
+
+                <label >Facebook URL</label>
+                <input type="text" name="txtFBURL"><br>
+                <br>
+                
+                <label >Designation</label>
+                <input type="text" name="txtDesignation" required><br>
+                <br>
+
+                <label >NIC</label>
+                <input type="text" name="txtNIC" required><br>
+                <br>
+                
+                <label >Index Number</label>
+                <input type="text" name="txtIndexNumber" required><br>
+                <br>
+
+                <label >FOOD CATEGORY</label>
+                <select name="dropdownFood">
+                   <option value="NON VEG">NON VEG</option>
+                   <option value="VEG">VEG</option>
+                </select><br><br>
+
+                <label >DATE OF BIRTH</label>
+                <input type="date" name="txtDate" required><br><br>
+
+                <label >Category</label>
+                <select name="dropdownCategory">
+                   <option value="STUDENT">Student</option>
+                   <option value="ADMINISTRATION STAFF">Adiministration Staff</option>
+                   <option value="TEMPORARY ACADEMIC STAFF">Temporary Academic Staff</option>
+                   <option value="ACADEMIC STAFF">Academic Staff</option>
+                </select><br><br>
+
+                <label >Role</label>
+                <select name="dropdownRole">
+                   <option value="USER">User</option>
+                   <option value="ORGANIZER">Organizer</option>
+                   <option value="ADMINISTRATION">Administration</option>
+                </select><br><br>
+
+                <label >Notes</label>
+                <input type="text" name="txtNotes" required><br>
+                <br>
+
+                <input type="submit" value="SUBMIT" name="btnSubmit">
+                <input type="reset" onclick="reset()" value="RESET">
+        </form>
+    </body>
+</html>
+
+

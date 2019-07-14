@@ -1,0 +1,37 @@
+body{
+    background-color: powderblue;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Arial, sans-serif';
+    color: brown;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+    width: 200px;
+    text-align: left;
+    font: bold;
+}
+
+#dob{
+    width: 50px !important;
+}
+fieldset{
+    text-align: center;
+    border: 1px solid rgb(255,2,57);
+    width: 600px;
+    margin: auto;
+}
+
+#gender1{
+    width: 20px;
+}
+/*
+.input('submit'){
+    widows: 50px;;
+}
+  */
